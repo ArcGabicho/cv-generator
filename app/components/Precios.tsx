@@ -63,7 +63,7 @@ const Precios = () => {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
-                    {plans.map((plan, index) => (
+                    {plans.map((plan) => (
                         <div 
                             key={plan.name}
                             className={`relative ${plan.bgColor} backdrop-blur-sm border ${plan.popular ? 'border-purple-400/50 ring-2 ring-purple-400/20' : 'border-white/10'} rounded-2xl p-6 hover:border-white/20 transition-all duration-200`}
