@@ -113,7 +113,7 @@ const Precios = () => {
 
                 <div className="text-center mt-8">
                     <p className="text-gray-500 text-sm font-[Syne]">
-                        ¿Necesitas un plan empresarial? <a href="/contacto" className="text-purple-400 hover:text-purple-300 underline">Contáctanos</a>
+                        ¿Necesitas un plan empresarial? <a href="/contacto" className="text-purple-400 hover:text-purple-300 underline">Contáctame</a>
                     </p>
                 </div>
             </div>
