@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Comunidad = () => {
     const communityStats = {
         members: 1247,
@@ -70,14 +72,15 @@ const Comunidad = () => {
 
                 {/* Botones de acción */}
                 <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                    <button className="group px-8 py-4 rounded-xl bg-white/5 backdrop-blur-sm border border-white/20 text-white text-lg font-medium font-[Syne] flex flex-row items-center justify-center gap-3 hover:bg-white/10 hover:border-white/30 transition-all duration-200">
-                        Unirse a Discord
-                        <i className="bi bi-discord text-base group-hover:scale-110 transition-transform duration-200"></i>
-                    </button>
-                    
-                    <button className="px-8 py-4 rounded-xl bg-purple-600/20 backdrop-blur-sm border border-purple-400/30 text-purple-200 text-lg font-medium font-[Syne] hover:bg-purple-600/30 hover:border-purple-400/50 transition-all duration-200">
-                        Ver Foro
-                    </button>
+                    <Link href="https://github.com/ArcGabicho" target="_blank" className="group px-8 py-4 rounded-xl bg-white/5 backdrop-blur-sm border border-white/20 text-white text-lg font-medium font-[Syne] flex flex-row items-center justify-center gap-3 hover:bg-white/10 hover:border-white/30 transition-all duration-200">
+                        Unirse a GitHub
+                        <i className="bi bi-github text-base group-hover:scale-110 transition-transform duration-200"></i>
+                    </Link>
+
+                    <Link href="https://github.com/ArcGabicho/cv-generator" target="_blank" className="flex items-center justify-center group gap-3 px-8 py-4 rounded-xl bg-purple-600/20 backdrop-blur-sm border border-purple-400/30 text-purple-200 text-lg font-medium font-[Syne] hover:bg-purple-600/30 hover:border-purple-400/50 transition-all duration-200">
+                        Ver Repositorio
+                        <i className="bi bi-github text-base group-hover:scale-110 transition-transform duration-200"></i>
+                    </Link>
                 </div>
                 
                 <div className="pt-8 mt-auto">
