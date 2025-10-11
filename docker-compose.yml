@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+	web:
+		image: node:20-alpine
+		working_dir: /app
+		volumes:
+			- ./:/app
+			- /app/node_modules
+		ports:
+			- '3000:3000'
+		environment:
+			- NODE_ENV=development
+		command: sh -c "npm install && npm run dev"
+		# Si usas pnpm o yarn, cambia el comando por pnpm install && pnpm dev o yarn install && yarn dev
