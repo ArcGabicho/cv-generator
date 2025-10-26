@@ -97,7 +97,7 @@ export default function CrearCuenta() {
                         </h1>
                         <div className="w-32 h-[2px] bg-gradient-to-r from-green-400 to-transparent mx-auto md:mx-0"></div>
                         <p className="text-lg text-gray-300 font-normal font-[Syne] leading-relaxed">
-                            Regístrate y comienza a crear <span className="text-purple-400 font-medium">currículums optimizados</span> para tu organización.
+                            Regístrate y comienza a crear <span className="text-purple-400 font-medium">currículums optimizados</span> para alcanzar tu próximo empleo.
                         </p>
                     </div>
 

@@ -77,7 +77,7 @@ const Actividad = () => {
   ];
 
   return (
-    <div className="flex-1 flex flex-col justify-center px-6 md:px-12 py-16 w-full">
+    <div className="flex-1 flex flex-col items-center justify-center px-6 md:px-12 py-16 w-full">
       <div className="flex flex-col gap-8 w-full max-w-[600px]">
         <div className="space-y-6 w-full">
           <h1 className="text-4xl md:text-6xl font-bold text-white font-[Syne] leading-tight">
